@@ -1,0 +1,183 @@
+/* Time&Activity.module.css */
+
+.container {
+    padding: 20px;
+    background-color: rgb(74, 73, 73);
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.leftheader {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.pages {
+    font-size: 14px;
+    color: #F09D18;
+}
+
+.timeandactivity {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    height:32px;
+    width:400px
+}
+
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.signInButton,
+.settingsButton,
+.notificationButton {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.sectioncontainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.sectionwrapper {
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    width: 600px;
+}
+
+.section {
+    display: flex;
+    margin-left: 140px;
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    height: 36px;
+    gap:12px;
+}
+
+
+.addButton{
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    height:24px;
+    width:48px;
+    color: white;
+    margin:5px 10px;
+}
+
+.browse {
+    display: flex;
+    height: 64px;
+    padding-left: 16px;
+    gap:24px;
+}
+.browseButton,
+.searchButton {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+.browseButtonWrapper {
+    height:36px;
+}
+.browseButtonIcon {
+    border: none;
+    background-color: #4caf50;
+    padding: 8px 12px;
+    color:white;
+    border-radius: 10px;
+}
+.browseButtonText {
+    width:100px;
+    color: blue;
+    padding: 8px;
+    font-weight: bold;
+}
+.browseSearchText {
+    width: 100px;
+    color: grey;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.dropdown {
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 16px;
+    padding: 2px;
+    margin: 3px 4px;
+    background-color: #f2eded;
+    height:28px;
+    margin: 3px 4px;
+}
+
+.datePicker {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 10px;
+    background-color: #f2eded;
+    height: 28px;
+    margin: 3px 4px;
+}
+.cardSection {
+    display: flex;
+    margin: 36px 16px;
+    gap:12px;
+    height: 116px;
+}
+
+.card {
+    background-color: rgb(93,95,239);
+    color: white;
+    border-radius: 5px;
+    padding: 16px;
+    margin-right: 10px;
+    height: 108px;
+    width:180px;
+    border-radius: 12px;
+}
+
+.cardHeader {
+    font-size: 14px;
+}
+
+.cardContent {
+    font-weight: bold;
+}
+.timeandactivty {
+    font-weight: bold;
+    color: white;
+    margin-top: 4px;
+}
+

@@ -1,14 +1,11 @@
-import { useState } from "react";
 import "./App.css";
+import Header from "./component/Header";
 
 function App() {
-
   return (
-    <>
-      <div>
-        <h1>Vite + React</h1>
-      </div>
-    </>
+    <div>
+      <Header />
+    </div>
   );
 }
 
